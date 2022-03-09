@@ -17,3 +17,10 @@ As you've seen, the base resource which would be created is dynamodb, now you ca
 ```shell
 python3 app-example.py
 ```
+
+
+# Useful links
+- dynamodb, lambda, kinesis: https://dev.to/mrwormhole/localstack-with-terraform-and-docker-for-running-aws-locally-3a6d   
+- s3: https://stackoverflow.com/questions/59307312/localstack-create-s3-bucket-locally-with-terraform-doesnt-have-a-name
+- sqs: https://github.com/farhad-taran/Terraform-Localstack/blob/master/main.tf
+- sqs, sns, iam & others small: https://github.com/jupitercl/aws-localstack-terraform-sns-sqs-lambda/tree/master/terraform
