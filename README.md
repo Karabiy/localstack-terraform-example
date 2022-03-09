@@ -13,6 +13,10 @@ That's the moment of win - you need to run terraform plan in order to check on w
 ```shell
 terraform plan
 ```
+In order to create resources, but not only observe which of these could be created, you should run
+```shell
+terraform apply
+```
 As you've seen, the base resource which would be created is dynamodb, now you can test its usage with simple python script included here
 ```shell
 python3 app-example.py
